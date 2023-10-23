@@ -34,5 +34,6 @@ function resetCounter() {
 }
 
 function writeText() {
-  
+  const input = document.querySelector("#input")
+
 }
