@@ -18,3 +18,7 @@ function incrementCounter() {
   num = num + 1
   numberElement.textContent = num
 }
+
+function decrementCounter() {
+  
+}
