@@ -11,3 +11,7 @@ function deleteText() {
   const elemToDeleteText = document.querySelector("#to-delete")
   elemToDeleteText.textContent = "Inhalt gelöscht"
 }
+
+function incrementCounter() {
+  
+}
