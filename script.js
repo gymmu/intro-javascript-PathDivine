@@ -32,3 +32,7 @@ function resetCounter() {
   num = 0
   numberElement.textContent = num
 }
+
+function writeText() {
+  
+}
