@@ -13,5 +13,8 @@ function deleteText() {
 }
 
 function incrementCounter() {
-  
+  const numberElement = document.querySelector("#counter")
+  let num = parseInt(numberElement.textContent)
+  num = num + 1
+  numberElement.textContent = num
 }
