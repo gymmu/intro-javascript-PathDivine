@@ -25,3 +25,7 @@ function decrementCounter() {
   num = num - 1
   numberElement.textContent = num
 }
+
+function resetCounter() {
+  
+}
