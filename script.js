@@ -27,5 +27,8 @@ function decrementCounter() {
 }
 
 function resetCounter() {
-  
+  const numberElement = document.querySelector("#counter")
+  let num = parseInt(numberElement.textContent)
+  num = 0
+  numberElement.textContent = num
 }
