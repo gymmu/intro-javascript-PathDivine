@@ -39,3 +39,7 @@ function writeText() {
   const outValue = outputElem.textContent + "\n" + inputElem.value
   outputElem.textContent = outValue
 }
+
+function colourChanger() {
+  
+}
